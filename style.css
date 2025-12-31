@@ -1,0 +1,142 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Friendly, modern font */
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); /* Cool gradient background */
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #24292e; /* GitHub dark */
+    color: white;
+    text-align: center;
+    padding: 3rem 2rem;
+    border-bottom: 5px solid #0366d6; /* Blue accent */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin: 0;
+}
+
+section {
+    padding: 2rem;
+    margin: 2rem auto;
+    max-width: 900px;
+    background: rgba(255, 255, 255, 0.95); /* Semi-transparent white */
+    border-radius: 15px;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+    border: 2px solid #f0f0f0;
+}
+
+h2 {
+    color: #0366d6; /* GitHub blue */
+    border-bottom: 3px solid #28a745; /* Green accent */
+    padding-bottom: 0.5rem;
+    font-size: 1.8rem;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    background: #e9ecef;
+    margin: 0.5rem 0;
+    padding: 1rem;
+    border-radius: 8px;
+    border-left: 5px solid #0366d6;
+    transition: transform 0.2s;
+}
+
+li:hover {
+    transform: translateX(10px); /* Fun hover effect */
+    background: #d1ecf1;
+}
+
+.project {
+    border: 2px solid #dee2e6;
+    padding: 1.5rem;
+    margin: 1rem 0;
+    border-radius: 10px;
+    background: #f8f9fa;
+    transition: box-shadow 0.3s;
+}
+
+.project:hover {
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+a {
+    color: #0366d6;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #0056b3;
+}
+
+#profile-pic {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    border: 5px solid #0366d6;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background 0.3s;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background: #24292e;
+    color: white;
+    margin-top: 2rem;
+}
+
+.submission {
+    border: 2px solid #dee2e6;
+    padding: 1.5rem;
+    margin: 1rem 0;
+    border-radius: 10px;
+    background: #f8f9fa;
+    transition: box-shadow 0.3s;
+}
+
+.submission:hover {
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+.submission h3 {
+    color: #0366d6;
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    font-size: 1.4rem;
+}
+
+.submission p {
+    margin: 0.5rem 0;
+    color: #495057;
+}
+
+.submission strong {
+    color: #24292e;
+}
